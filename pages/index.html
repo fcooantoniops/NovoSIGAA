@@ -5,20 +5,58 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/main.css">
+        <style>
+            header{
+                justify-content: flex-start;
+            }
+            input{
+                border: 1px solid #AAA;
+                margin-bottom: 4px;
+            }
+            #form-layout{
+                display: inline;
+            }
+            label{
+                width: 64px;
+                display: inline-block;
+                font-size: small;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+            footer{
+                height: 35px;
+            }
+            h4{
+                border-top-right-radius: 50%;
+                background-color: darkcyan;
+                color: aquamarine;
+            }
+            .hidden{
+                display: none;
+            }
+        </style>
         <title>Novo SIGAA</title>
     </head>
     <body>
         <header>UFC - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas</header>
+        <div class="linha-div"></div>
         <main>
             <form action="/pages/control-panel.html" method="get">
                 <h4>Entrar no Sistema</h4>
-                <label for="name">Usuário:</label>
-                <input type="text" name="name" placeholder=""/>
-                <label for="password">Senha:</label>
-                <input type="password" name="password" placeholder=""/>
-                <input type="submit" value="Entrar">
+                <div id="form-layout">
+                    <label for="name">Usuário:</label>
+                    <input type="text" name="name" placeholder=""/>
+                </div>
+                <div id="form-layout">
+                    <label for="password">Senha:</label>
+                    <input type="password" name="password" placeholder=""/>
+                </div>
+                <input type="submit" value="Entrar" style="width: 30%; margin-left: 40%;">
             </form>
+            <div class="hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit voluptates sapiente quia reiciendis, eveniet a expedita est tempora ratione mollitia officiis magni aperiam culpa incidunt, exercitationem animi odit! Debitis, minus?</div>
         </main>
-        <footer>NOVO SIGAA | Copyright © 2022 - Superintendência de Tecnologias Web - UFC - (00) 1111-9999 - www.ufc.br </footer>
+        <div class="linha-div2"></div>
+        <footer>
+            NOVO SIGAA | Copyright © 2022 - Superintendência de Tecnologias Web - UFC - (00) 1111-9999 - www.ufc.br
+        </footer>
     </body>
 </html>

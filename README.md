@@ -51,3 +51,18 @@ Você deverá utilizar as novas TAGs HTML5 para dar semântica para sua página.
   
 Consulta:  
 [https://www.w3schools.com/html/default.asp](https://www.w3schools.com/html/default.asp)
+
+#### Laboratório 2: Novo SIGAA - CSS
+
+Utilizando suas páginas criadas no Laboratório 1 (Novo SIGAA), você nessa atividade,
+deverá estilizar páginas utilizando os recursos do CSS vistos até o momento na disciplina.
+Obs: a forma do uso do CSS é livre, você poderá estilizar sua página como preferir.
+Os seguintes itens devem ser utilizados na suas páginas
+1. CSS interno, externo e inline ( inline apenas em uma única vez)
+2. Todos os tipos de seletores
+3. Possibilidades do display
+4. Tipos diferentes de fontes
+5. Backgrounds diversos nas páginas
+6. Box Model
+7. Padding e Margin
+8. Posicionamento
